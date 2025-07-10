@@ -1,8 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="refresh" content="0; URL=/" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=/iword/" />
+    <title>Redirecting...</title>
   </head>
   <body>
+    <p>Redirection vers l'accueil...</p>
+    <script>
+      // Pour supporter le routage via React Router même avec le rechargement
+      window.location.href = '/iword' + window.location.pathname + window.location.search + window.location.hash;
+    </script>
   </body>
 </html>
